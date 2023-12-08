@@ -34,7 +34,6 @@ pub fn main() {
         together.push_str(&last_digit);
         println!("sum: {}", sum);
         sum += together.parse::<i32>().unwrap();
-        // sum += &together.parse::<i32>();
     }
     println!("Sum of digits in line: {}", sum);
 }
